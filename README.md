@@ -36,9 +36,11 @@ The -option,<strong>'compare'</strong>, does something different than 'get'. It 
 * The difference of the confirmed cases
 * The difference of the death cases
 * The difference of the cases
+
 ex.
 diffcount,diffavgconf,diffavgdeath,diffavgtests 
 -2,3,-5,-300 3,4,-1,200
+
 This gives a better sense of spread of the flu/covid in different regions.
 
 <!-- Working on...-->
