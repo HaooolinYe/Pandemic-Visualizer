@@ -1,6 +1,6 @@
 # Pandemic-Visualizer
 A bash script that takes in csv file(s) which contain(s) information about the spead of a flu/covid time can output orgonized data with respect to time to help doctors or scholars to better visulaize and anticipate a pandemic.
-
+<img src="https://user-images.githubusercontent.com/90864900/152258476-f2583af6-1cdb-48e9-8e09-12f86cd2501a.png" width=500 height=400>
 <!-- Before You Start -->
 ## Before You Start
 * Download the covidata.sh file.
@@ -9,13 +9,14 @@ A bash script that takes in csv file(s) which contain(s) information about the s
 
 <!-- Script syntax -->
 ## Script syntax
+```
 ./covidata.sh -r procedure id range inputFile outputFile compareFile
-
+```
 <strong>Legal usage examples:</strong>
-* ./covidata.sh get 35 data.csv result.csv
-* ./covidata.sh -r get 35 2020-01 2020-03 data.csv result.csv
-* ./covidata.sh compare 10 data.csv result2.csv result.csv
-* ./covidata.sh -r compare 10 2020-01 2020-03 data.csv result2.csv result.csv
+* ```./covidata.sh get 35 data.csv result.csv```
+* ```./covidata.sh -r get 35 2020-01 2020-03 data.csv result.csv```
+* ```./covidata.sh compare 10 data.csv result2.csv result.csv```
+* ```./covidata.sh -r compare 10 2020-01 2020-03 data.csv result2.csv result.csv```
 
 <!-- Capability && Guide-->
 ## Capability && Guide
@@ -45,4 +46,4 @@ This gives a better sense of spread of the flu/covid in different regions.
 
 <!-- Working on...-->
 ## Working on...
-This program hasn't had any graphic result. Goal is to use matplotlib and python to graph the actually statistics.
+This program hasn't yet had any graphical interface. Such capability could be added using matplotlib and python to graph out the actually statistics.
